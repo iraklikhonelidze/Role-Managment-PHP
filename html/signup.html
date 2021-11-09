@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+</head>
+<body>
+
+	<style type="text/css">
+	
+#text{
+	height: 25px;
+	border-radius: 5px;
+	padding: 4px;
+	border: solid thin rgb(255, 255, 255);
+	width: 100%;
+}
+
+#button{
+	padding: 10px;
+	width: 100px;
+	color: white;
+	background-color: rgb(46, 0, 119);
+	border: none;
+}
+
+#box{
+	background-color: rgb(123, 0, 160);
+	margin: auto;
+	width: 300px;
+	padding: 15px;
+	border-top-left-radius: 50% 7%;
+  	border-top-right-radius: 50% 7%;
+	border-bottom-right-radius: 50% 7%;
+  	border-bottom-left-radius: 50% 7%;
+}
+
+#btn{
+	color: white
+}
+
+::placeholder { 
+  	color: rgb(91, 184, 190);  
+}
+
+</style>
+
+	<div id="box">
+		<form method="post">
+			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
+			<input id="text" type="text" name="user_name" placeholder="Username"><br><br>
+			<input id="text" type="password" name="password" placeholder="Password"><br><br>
+			<input id="button" type="submit" value="Signup"><br><br>
+			<a href="login.php" id="btn">Already registered? Log In</a><br><br>
+		</form>
+	</div>
+</body>
+</html>
