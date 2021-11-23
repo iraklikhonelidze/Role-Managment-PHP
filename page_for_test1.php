@@ -92,8 +92,16 @@ session_start();
         
 ?>
 
+<style> 
+        #card{
+            width: 60%;
+            margin: 0 auto;
+            float: none;
+            background-color: wheat;
+        }
+    </style>
 
-<div class="card" style="width: 18rem;">
+<div id="card" class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title"><?php echo $row['first_name'] . ' ' . $row['last_name']?></h5>
     <h6 class="card-subtitle mb-2 text-muted">Email: <?php echo $row['email']?></h6>

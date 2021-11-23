@@ -1,0 +1,8 @@
+username:qqq          პირველი user განსხვავებული კითხვებით
+password:qqq
+
+username:III          მეორე user განსხვავებული კითხვებით
+password:iii
+
+username:OOO          დანარჩენი userების მაგალითი
+password:ooo
