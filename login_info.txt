@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-username:qqq          პირველი user განსხვავებული კითხვებით
+username:qqq          first user 
 password:qqq
 
-username:III          მეორე user განსხვავებული კითხვებით
+username:III          second user 
 password:iii
 
-username:OOO          დანარჩენი userების მაგალითი
-=======
-username:qqq          პირველი user განსხვავებული კითხვებით
-password:qqq
-
-username:III          მეორე user განსხვავებული კითხვებით
-password:iii
-
-username:OOO          დანარჩენი userების მაგალითი
->>>>>>> ad119aafd87ed183b1e67a34d328d43d46a6d296
+username:OOO          default user' example
 password:ooo
